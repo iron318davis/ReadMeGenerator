@@ -69,50 +69,50 @@ inquirer.prompt([
         let profilePic = data.avatar_url;
         let filename = `./Test/${response.title}_README.md`;
         let text = `
-        # ${response.title}
+# ${response.title}
 
-        ## Description 
+## Description 
 
-        ${response.description}
+${response.description}
 
-        ## Table of Contents
+## Table of Contents
 
-        * [Installation](#installation)
-        * [Usage](#usage)
-        * [License](#license)
-        * [Contributing](#contributing)
-        * [Tests](#tests)
-        * [Questions](#questions)
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
         
-        ## Installation
+## Installation
 
-        ${response.installationinstructions}
+${response.installationinstructions}
 
-        ## Usage 
+## Usage 
 
-        ${response.usage}
+${response.usage}
 
-        ## License
+## License
 
-        ![alt text](https://img.shields.io/github/license/${response.username}/${response.title}.svg "License")
+![alt text](https://img.shields.io/github/license/${response.username}/${response.title}.svg "License")
 
-        ## Contributing
+## Contributing
 
-        ${response.contributing}
+${response.contributing}
 
-        ## Tests
+## Tests
 
-        ${response.tests}
+${response.tests}
 
-        ## Questions
+## Questions
 
-        Contact 
-        ![Profile Picture](${profilePic}) 
-        at 
-        ${response.email}
+Contact 
+![Profile Picture](${profilePic}) 
+at 
+${response.email}
 
-        `
-        ;
+`
+;
         fs.writeFile(filename, text, function (err) {
             if (err) {
                 return console.log(err);

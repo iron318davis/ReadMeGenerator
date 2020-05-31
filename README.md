@@ -1,45 +1,45 @@
 
-        # ReadMeGenerator
+# ReadMeGenerator
 
-        ## Description 
+## Description 
 
-        creates readme based on input
+Creates readme based on input
 
-        ## Table of Contents
+## Table of Contents
 
-        * [Installation](#installation)
-        * [Usage](#usage)
-        * [License](#license)
-        * [Contributing](#contributing)
-        * [Tests](#tests)
-        * [Questions](#questions)
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
         
-        ## Installation
+## Installation
 
-        npm install
+npm install
 
-        ## Usage 
+## Usage 
 
-        run 'node index.js' from ReadMeGenerator root
+run 'node index.js' from ReadMeGenerator root
 
-        ## License
+## License
 
-        ![alt text](https://img.shields.io/github/license/iron318davis/ReadMeGenerator.svg "License")
+![alt text](https://img.shields.io/github/license/iron318davis/ReadMeGenerator.svg "License")
 
-        ## Contributing
+## Contributing
 
-        Email me
+Email me
 
-        ## Tests
+## Tests
 
-        npm test
+npm test
 
-        ## Questions
+## Questions
 
-        Contact 
-        ![Profile Picture](undefined) 
-        at 
-        davis.sjoberg@gmail.com
+Contact 
+![Profile Picture](undefined) 
+at 
+davis.sjoberg@gmail.com
 
         
 ### Deployed at
