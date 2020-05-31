@@ -42,11 +42,3 @@
         davis.sjoberg@gmail.com
 
         
-### Deployed at
- https://iron318davis.github.io/ReadMeGenerator/
-
-### Repository
- https://github.com/iron318davis/ReadMeGenerator
-
-### Video
- http://youtu.be/cEzimw3qGs4?hd=1
